@@ -1,0 +1,47 @@
+/*
+
+Theme name: DMTheme
+Author: Niran Millet @ DMsavers
+
+*/
+
+
+
+body{
+	background: #f2f2f2 ; 
+}
+
+header{
+	background: #003399; 
+	width: 100%; 
+	
+}
+
+header a{
+	font-family: 'Varela Round', sans-serif;
+	color: #fff; 
+	text-decoration: none;
+
+
+}
+
+header a:hover {
+	text-decoration: underline;
+} 
+
+footer{
+	background: #003399; 
+}
+
+.header_nav ul li{
+	display: inline-block;
+}
+
+
+.main_nav li{
+	display: inline-block;
+}
+
+ .main_nav {
+	text-align: center;
+}

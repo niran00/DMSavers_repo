@@ -1,0 +1,13 @@
+.count-particles { background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+.js-count-particles { font-size: 1.1em; }
+#stats, .count-particles { -webkit-user-select: none; margin-top: 5px; margin-left: 5px; }
+#stats { border-radius: 3px 3px 0 0;  overflow: hidden; }
+.count-particles { border-radius: 0 0 3px 3px; }
+.main-container { height: 100%; overflow:hidden; }
+.section-demo { height: 100%; background-color: #0a365d; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0a365d), color-stop(100%, #030f1b)); background-image: -webkit-linear-gradient(#0a365d, #030f1b); background-image: linear-gradient(#0a365d, #030f1b); }
+#subscribe { position:relative; overflow:hidden; z-index:99; }
+.tempBy { z-index:99; }
+/* ---- particles.js container ---- */
+#particles-js { position:fixed; width: 100% !important; height: 100% !important; background-image: url(''); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; top:0px; left:0px; z-index:-8; }
+#bubble, #constellationel { position:fixed; width: 100% !important; height: 100% !important; left:0; top:0; background-color: transparent; background-image: url(''); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; z-index:-8; }
+#constellationel { position:fixed; width: 100% !important; height: 100% !important; background-color: transparent; background-image: url(''); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; z-index:9; }

@@ -4,10 +4,10 @@
 
 		
 
-<?php  echo "this is a test" ?>
+
 
 <div class="container">
-		<h1 class="pt-3 pb-3"><?php the_title();  ?> 123</h1>
+		<h1 class="pt-3 pb-3"><?php the_title();  ?> </h1>
 <?php if(have_posts()) : while(have_posts()) : the_post();?> 
 
 
